@@ -1,3 +1,7 @@
+How to design a global video streaming service, e.g. YouTube or Netflix?
+While designing a video streaming service like NetFlix or YouTube, the key concept to remember is smooth streaming and buffering and functioning over low bandwidth connection and managing those challenges.
+
+
 Designing Youtube
 Let's design a video sharing service like Youtube, where users will be able to upload/view/search videos.
 Similar Services: netflix.com, vimeo.com, dailymotion.com, veoh.com

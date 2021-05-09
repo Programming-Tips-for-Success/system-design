@@ -1,3 +1,8 @@
+How would you create your own Instagram?
+
+Instagram is a photo-sharing application that provides some custom filters to enhance your photo quality.
+
+
 Designing Instagram
 Let's design a photo-sharing service like Instagram, where users can upload photos to share them with other users.
 

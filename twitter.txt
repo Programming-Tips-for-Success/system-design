@@ -1,3 +1,9 @@
+Design a system similar to Twitter
+How to design a Twitter Clone?
+
+Twitter is a popular messaging service that lets you broadcast messages to all of your followers. You post a tweet and your followers see those messages. Additionally, they can like or retweet your post. Make sure you implement common features like followers, hashtags, tweets, deletes, etc.
+
+
 Designing Twitter
 Let's design a Twitter-like social networking service. Users of the service will be able to post tweets, follow other people, and favorite tweets.
 1. What is Twitter?

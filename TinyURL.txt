@@ -1,3 +1,14 @@
+Encoding actual URL
+
+Design a URL shortening solution
+
+How to design a URL shortening service like goo.gl?
+
+This one is another common system design question. If you are given a (typically) long URL, how would you design a service that would generate a shorter and unique alias for it? If you are not familiar with the URL shortener service, have a look at some of the popular ones like goo.gl from Google and bit.ly, which is used by Twitter.
+
+Make sure to provide a database schema and rationale behind some design decisions, e.g. how long you keep the data, how to get stats and analytics, etc. 
+
+
 Designing a URL Shortening service like TinyURL
 Let's design a URL shortening service like TinyURL. This service will provide short aliases redirecting to long URLs.
 
