@@ -48,3 +48,30 @@ Check-out a book,
 Return a book, 
 Renew a book.
 
+
+schemas-
+
+enums- constants
+
+inerfaces
+
+tables-
+
+
+BOOKS
+bookname-
+datetime
+issue date
+return date
+borrowers address
+author
+
+USERS
+address
+number
+name
+
+AUTHOR
+booktitle
+
+authorid
