@@ -1,2 +1,2 @@
 How to design an API Rate Limiter?
-This is a challenging one. You may want to find more information about it, starting with a Google search.
+
