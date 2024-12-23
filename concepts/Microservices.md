@@ -1,5 +1,3 @@
-index-
-
 about
 hot tables
 
@@ -43,5 +41,3 @@ Microservices with docker, Kubernetes, kafka and mongoDB
 Microservice Architecture
 
 micro apps
-
-medium.com/swlh/real-time-exchange-information-with-microservices-and-nodejs-e6bf6623bca6

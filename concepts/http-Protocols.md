@@ -1,5 +1,3 @@
-index-
-
 overview of the HTTP
 Protocols
 HTTP request

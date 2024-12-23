@@ -50,4 +50,15 @@ Redis for session management - f your application uses sessions to track authent
 
 Redis as a Queue
 
-https://github.com/reactjsdevelopment/redis-demo
+Caching-
+Caching is a state management technique that can store a copy of the data in memory.
+To increase the performance of the application and improve the access time, caching is used. 
+It exists in temporary storage, in other words when the data is no longer used then it expires. 
+Using a cache we can retrieve the data from a database directly.
+3 types-
+Output Caching
+Data Caching
+Fragment Caching
+
+What is a Session, in a web application?
+A session is a unique instance of the browser. A single user can have multiple sessions, by visiting your application, with multiple instances of the browser running with a different session-id on his machine. 

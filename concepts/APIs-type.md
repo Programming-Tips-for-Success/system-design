@@ -1,5 +1,3 @@
-index-
-
 REST vs RPC
 SOAP vs REST
 grpc
@@ -94,3 +92,61 @@ Yaml has nested indentation as Python. You can use white spaces but tab characte
 The main purpose of yaml file is to serve as a configuration file in an application as it is recommended to write the configurations of an application in YAML instead of JSON or XML as it is more flexible with good readability. A lot of automation tools like Ansible use it as part of its configuration and creation of processes. It can also be used to track the changes inside source control.
 
 XML is used to describe the data. It separates the data from the presentation. It can be used in developing the HTML applications since HTML is used to format the data and XML can be used to send or receive the data. It can also be used with the conjunction of JavaScript language to read the data.
+
+There are different types of APIS that we create like
+HTTP (request methods verbs-GET-POST-PUT-DELETE-patch-head-jsonp) and Interacting with the server
+CRUD    HTTP Verb
+Create    POST
+Read    GET
+Update    PUT
+Delete    DELETE
+
+SOAP and XML created an excellent solution for creating connected web applications. SOAP is a standard XML based protocol that communicated over HTTP.
+The SOAP offered an excellent way of transferring the data between the applications
+
+REST stands for Representational State Transfer. 
+REST is an architectural pattern for creating an API that uses HTTP as its underlying communication method. This is a protocol for exchanging data over a distributed environment. The main idea behind REST is that we should treat our distributed services as a resource and we should be able to use simple HTTP protocols to perform various operations on that resource.
+
+GET: This maps to the R(Retrieve) part of the CRUD operation. This will be used to retrieve the required data (representation of data) from the remote resource.
+PUT: This maps to the U(Update) part of the CRUD operation. This protocol will update the current representation of the data on the remote server.
+POST: This maps to the C(Create) part of the CRUD operation. This will create a new entry for the current data that is being sent to the server.
+DELETE: This maps to the D(Delete) part of the CRUD operation. This will delete the specified data from the remote server. 
+
+What is a Web Application?
+A web application is an application that is accessed by users using a web browser. Examples of web browsers include 
+1. Microsoft Internet Explorer
+2. Google Chrome
+3. Mozilla FireFox
+4. Apple Safari
+5. Netscape Navigator
+
+What are the advantages of Web applications?
+1. Web Applications just need to be installed only on the web server, where as desktop applications need to be installed on every computer, where you want to access them.
+2. Maintenance, support and patches are easier to provide.
+3. Only a browser is required on the client machine to access a web application.
+4. Accessible from anywhere, provided there is internet.
+5. Cross Platform 
+
+Web server-
+a web server, is a software, that is used to deliver web pages to clients using the Hypertext Transfer Protocol (HTTP). 
+For example, IIS is a web server that can be used to run asp.net web applications.
+
+iis-
+IIS (Internet Information Server) is one of the most powerful web servers from Microsoft that is used to host your ASP.NET Web application. 
+IIS has it's own ASP.NET Process Engine to handle the ASP.NET request
+
+Authentication is the process of identifying users. Authorization is the process of granting access to those users based on identity. 
+Together, authentication and authorization secures our Web application.
+
+Authentication - Who is the User?
+Authorization - What rights the user has? What resources the user can access?
+
+Most of the public web sites, does not ask the user to enter any user name and password.
+But still, we will be able to access the content of these web sites.
+
+How Web applications work?
+1. Web applications work on client/server architecture
+2. On the client all you need is a browser, that can understand HTML
+3. On the server side, the Web application runs under Microsoft Internet Information Services (IIS) 
+
+When the client enters the URL of the web application in the browser, and submits the request. The web server which hosts the web application, receives the request. The request is then processed by the application. The application generates, the HTML and hands it over to the IIS (web server). Finally, IIS sends the generated HTML to the client, who made the initial request. The client browser will the interpret the HTML and displays the user interface. All this communication, happens over the internet using HTTP protocol. HTTP stands for Hyper Text Transfer Protocol. A protocol is a set of rules that govern how two or more items communicate.

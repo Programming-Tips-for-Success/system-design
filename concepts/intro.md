@@ -1,7 +1,22 @@
+
+I gave few system design interviews recently. Here is my approach to tackle problem in 40 minutes:
+
+1. Discuss functional and non functional requirements
+2. Identify users and channels
+3. Discuss scale of traffic
+4. Come up with basic design for 1 user ( make sure you don't use any load balancer or queues, just service and database)
+5. Now introduce message queue, load balancer, websocket etc later only if they are needed
+6. Discuss each component, what if things break or there is a bottleneck (hotspot) how would you handle this. This is most important part.
+7. Discuss data in transit and data in persistence.
+8. Discuss Choice of DB (remember don't mention specific name like aerospike but use a basic database term like in-memory db also why would you need it)
+9. Discuss replication,  caching, and partitioning (mention partition key and sort key).
+10. Do a quick storage capacity estimation for next 5 years
+11. Finally see if you need any specific data structure to improve upon the time complexity of core operation. Example: bloom filter, sorted set.
+
 about system design
 
 Things to cover while designing
-High-Level Design
+High-Level Design - how hld works
 Low-Level Design
 
 System design is the process of designing a system(any software application). So when we start designing any software system few things we keep in mind.
@@ -160,16 +175,26 @@ https://bytebytego.com/pricing for system design
 https://www.tryexponent.com/?ref=javinpaul2
 https://www.designgurus.io/?aff=84Y9hP
 
-I gave few system design interviews recently. Here is my approach to tackle problem in 40 minutes:
+Full form
+UML
+Unified Modeling Language
+An easy to read system of symbols, Definition shapes, and notations used in software system modeling and planning
+Class diagrams
+Object diagrams
+Key attributes
+Sequence diagrams
+Uses
+Activity diagrams
+Communication diagrams
+Plan and model software systems Show how entities operate within a system, with all possible interactions
 
-1. Discuss functional and non functional requirements
-2. Identify users and channels
-3. Discuss scale of traffic
-4. Come up with basic design for 1 user ( make sure you don't use any load balancer or queues, just service and database)
-5. Now introduce message queue, load balancer, websocket etc later only if they are needed
-6. Discuss each component, what if things break or there is a bottleneck (hotspot) how would you handle this. This is most important part.
-7. Discuss data in transit and data in persistence.
-8. Discuss Choice of DB (remember don't mention specific name like aerospike but use a basic database term like in-memory db also why would you need it)
-9. Discuss replication,  caching, and partitioning (mention partition key and sort key).
-10. Do a quick storage capacity estimation for next 5 years
-11. Finally see if you need any specific data structure to improve upon the time complexity of core operation. Example: bloom filter, sorted set.
+ERD
+Entity Relationship Diagram
+A diagram that shows real-world items that exist in a database, and uses symbols and shapes to show relationships, attributes, and other important details
+Entities Attributes Cardinality
+Ordinality
+Number of relationship instances
+Plan databases
+Ensure all entities function properly Defines attributes of entities
+
++ relationships between classes- Association,Bi-directional, Multiplicity, Aggregation, Composition, Generalization, Dependency, inheritance

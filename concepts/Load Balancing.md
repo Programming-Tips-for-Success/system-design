@@ -1,4 +1,3 @@
-index-
 about
 Benefits of Load Balancing
 load-balancing methods, which use different algorithms for different needs.
