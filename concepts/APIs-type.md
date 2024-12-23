@@ -150,3 +150,13 @@ How Web applications work?
 3. On the server side, the Web application runs under Microsoft Internet Information Services (IIS) 
 
 When the client enters the URL of the web application in the browser, and submits the request. The web server which hosts the web application, receives the request. The request is then processed by the application. The application generates, the HTML and hands it over to the IIS (web server). Finally, IIS sends the generated HTML to the client, who made the initial request. The client browser will the interpret the HTML and displays the user interface. All this communication, happens over the internet using HTTP protocol. HTTP stands for Hyper Text Transfer Protocol. A protocol is a set of rules that govern how two or more items communicate.
+
+JSONP is a method for sending JSON data without worrying about cross-domain issues. JSONP does not use the XMLHttpRequest object it uses the <script> tag instead of Object. JSONP is JSON with padding, i.e, you put a string at the beginning and a pair of parenthesis around it. As we know Browsers have a same-origin policy, meaning that HTTP request from a server to a different server is not possible, so we cannot use HTTP in that case. we used JSONP in that condition.
+
+//JSON
+{"name":"overflow","id":5}
+
+//JSONP
+func({"name":"overflow","id":5});
+
+JSONP Request callback example angular 2.0+ :
