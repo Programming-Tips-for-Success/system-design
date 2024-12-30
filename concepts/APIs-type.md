@@ -160,3 +160,12 @@ JSONP is a method for sending JSON data without worrying about cross-domain issu
 func({"name":"overflow","id":5});
 
 JSONP Request callback example angular 2.0+ :
+
+
+
+JSON with padding?
+JSON response
+{ ?username?: ?aditi?, ?name?: ?Shaumik Daityari?}
+The same response with a callback function specified as processData is as follows.
+JSONP Response
+processData({ ?username?: ?aditi?, ?name?: ?Shaumik Daityari?})
