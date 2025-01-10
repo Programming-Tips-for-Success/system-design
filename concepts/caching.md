@@ -62,3 +62,5 @@ Fragment Caching
 
 What is a Session, in a web application?
 A session is a unique instance of the browser. A single user can have multiple sessions, by visiting your application, with multiple instances of the browser running with a different session-id on his machine. 
+
+Cloudflare
