@@ -169,3 +169,13 @@ JSON response
 The same response with a callback function specified as processData is as follows.
 JSONP Response
 processData({ ?username?: ?aditi?, ?name?: ?Shaumik Daityari?})
+
+
+Difference between SOAP and REST
+• SOAP - Simple Object Access Protocol
+REST - Representational state transfer
+SOAP only support XML, but REST supports different format like text, JSON, XML etc.
+Sending data over the network in Json format is cheaper than sending it in Xml format in terms of payload.
+SOAP is the use of the "generic" transport but REST uses HTTP/HTTPS SOAP can't use REST because it is a protocol. REST can use SOAP web services because it is a concept and can use any protocol like HTTP, SOAP. 
+• SOAP defines standards to be strictly followed. REST does not define too much standards like SOAP.
+• SOAP requires more bandwidth and resource than REST. REST requires less bandwidth and resource than SOAP.

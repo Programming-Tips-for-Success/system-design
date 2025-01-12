@@ -146,3 +146,35 @@ https://howdns.works/
 https://computer.howstuffworks.com/internet/basics/internet.htm
 
 https://http.cat/
+
+restful-web-services-staus-code
+HTTP Status Codes
+Code Description 
+200
+OK
+400
+Bad Request
+201
+Created
+401
+Unauthorized
+202
+Accepted
+403
+Forbidden
+301
+Moved Permanently
+404
+Not Found
+303
+See Other
+410
+Gone
+304
+Not Modified
+500
+Internal Server Error
+307 
+Temporary Redirect
+503
+Service Unavailable
