@@ -1,5 +1,4 @@
-
-I gave few system design interviews recently. Here is my approach to tackle problem in 40 minutes:
+approach to tackle system design interviews problem:
 
 1. Discuss functional and non functional requirements
 2. Identify users and channels
@@ -13,15 +12,11 @@ I gave few system design interviews recently. Here is my approach to tackle prob
 10. Do a quick storage capacity estimation for next 5 years
 11. Finally see if you need any specific data structure to improve upon the time complexity of core operation. Example: bloom filter, sorted set.
 
-about system design
-
 Things to cover while designing
 High-Level Design - how hld works
 Low-Level Design
 
 System design is the process of designing a system(any software application). So when we start designing any software system few things we keep in mind.
-
-Things to cover while designing:
 
 What all features application will have?
 How many users will access this?
@@ -139,11 +134,11 @@ https://arpitbhayani.me/masterclass/    topics
 
 https://practice.geeksforgeeks.org/courses/system-design-live?  course details
 
-failover servers - horizonal scaling
+failover servers - horizontal scaling
 periodic backup -> cold standby
 replication of db -> warm standby
 
-horizonal scaling of db : sharding
+horizontal scaling of db : sharding
 
 normalized and denormalized data
 Updates in a denormalized table can involve iterating through every row, looking for copies of data that must be updated. They also take up more space.
@@ -175,9 +170,7 @@ https://bytebytego.com/pricing for system design
 https://www.tryexponent.com/?ref=javinpaul2
 https://www.designgurus.io/?aff=84Y9hP
 
-Full form
-UML
-Unified Modeling Language
+UML- Unified Modeling Language
 An easy to read system of symbols, Definition shapes, and notations used in software system modeling and planning
 Class diagrams
 Object diagrams

@@ -53,7 +53,7 @@ schemas-
 
 enums- constants
 
-inerfaces
+interfaces
 
 tables-
 
