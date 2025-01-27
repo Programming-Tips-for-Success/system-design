@@ -56,3 +56,5 @@ In short, it assists you with available IP addresses.
 How are web servers load-balanced?
 
 The problem in rendering angular application on Load Balancer environment?
+
+Stateless vs. Stateful Load Balancers.
