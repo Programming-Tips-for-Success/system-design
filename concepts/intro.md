@@ -194,3 +194,4 @@ Ensure all entities function properly Defines attributes of entities
 
 (DR) Disaster recovery testing is the process to ensure that an organization can restore data and applications and continue operations after an interruption of its services, critical IT failure or complete disruption. It is necessary to document this process and review it from time to time with their clients.
 
+https://www.hellointerview.com/learn/system-design/problem-breakdowns/ticketmaster
